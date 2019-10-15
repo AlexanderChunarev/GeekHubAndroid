@@ -17,8 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.5"
-        app:srcCompat="@drawable/my_photo"
-        tools:srcCompat="@drawable/my_photo" />
+        android:src="@drawable/my_photo" />
 
     <TextView
         android:layout_height="wrap_content"
@@ -29,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         android:text="@string/my_name"
         android:textColor="#000"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:layout_marginTop="8dp"/>
 
     <TextView
@@ -40,14 +39,14 @@
         app:layout_constraintTop_toBottomOf="@+id/name_text"
         android:text="@string/age"
         android:textColor="#000"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:layout_marginTop="8dp"/>
 
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:id="@+id/study_text"
         app:layout_constraintTop_toBottomOf="@+id/age_text"
         android:text="@string/place_of_studing"
@@ -58,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:id="@+id/faculty_text"
         app:layout_constraintTop_toBottomOf="@+id/study_text"
         android:text="@string/faculty"
@@ -68,7 +67,7 @@
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:textSize="16dp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         android:id="@+id/email_text"
         app:layout_constraintTop_toBottomOf="@+id/faculty_text"
