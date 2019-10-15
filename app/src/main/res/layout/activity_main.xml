@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.5"
         app:srcCompat="@drawable/my_photo"
-        tools:srcCompat="@tools:sample/avatars[10]" />
+        tools:srcCompat="@drawable/my_photo" />
 
     <TextView
         android:layout_height="wrap_content"
